@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ENJAZ-Application/static/css/main.700c26a5.css",
-    "main.js": "/ENJAZ-Application/static/js/main.6a51556a.js",
+    "main.js": "/ENJAZ-Application/static/js/main.ec95cabf.js",
     "static/media/phoneContactUs.png": "/ENJAZ-Application/static/media/phoneContactUs.e20f92335145effb66c1.png",
     "static/media/phone.png": "/ENJAZ-Application/static/media/phone.bcd16e798b4385ea8d48.png",
     "static/media/phone-download.png": "/ENJAZ-Application/static/media/phone-download.85cca22747339c26dcce.png",
@@ -9,10 +9,10 @@
     "static/media/Logo.png": "/ENJAZ-Application/static/media/Logo.dd6e41e1b12189992c2b.png",
     "index.html": "/ENJAZ-Application/index.html",
     "main.700c26a5.css.map": "/ENJAZ-Application/static/css/main.700c26a5.css.map",
-    "main.6a51556a.js.map": "/ENJAZ-Application/static/js/main.6a51556a.js.map"
+    "main.ec95cabf.js.map": "/ENJAZ-Application/static/js/main.ec95cabf.js.map"
   },
   "entrypoints": [
     "static/css/main.700c26a5.css",
-    "static/js/main.6a51556a.js"
+    "static/js/main.ec95cabf.js"
   ]
 }
