@@ -1,0 +1,161 @@
+.about {
+  padding: 6rem 7rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  border-bottom: 2px solid #0066ff;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.about-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 60%;
+  text-align: start;
+}
+
+.about-content h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.about-total p {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.about-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.about-buttons .btn-primary {
+  background-color: #0066ff;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #333;
+  padding: 0.8rem 1.8rem;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  max-width: 300px;
+  transform: rotate(-20deg);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .about {
+    padding: 4rem 2rem;
+  }
+
+  .about-total {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+    padding: 0;
+  }
+
+  .about-content h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-total p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .about-buttons {
+    justify-content: center;
+  }
+
+  .about-image img {
+    max-width: 240px;
+    transform: rotate(-15deg);
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .about-total p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 200px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
